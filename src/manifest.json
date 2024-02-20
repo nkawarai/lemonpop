@@ -1,0 +1,20 @@
+{
+    "name": "ラップ解析",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "ラップ解析します。",
+    "icons": {
+      "16": "icon_16x16.png",
+      "48": "icon_48x48.png",
+      "128": "icon_128x128.png"
+    },
+    "action": {
+      "default_title": "ラップ解析",
+      "default_icon": "icon_48x48.png"
+    },
+    "permissions":
+      ["contextMenus", "activeTab"],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
